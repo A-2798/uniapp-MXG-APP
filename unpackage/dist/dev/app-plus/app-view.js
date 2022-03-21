@@ -258,7 +258,8 @@ var render = function() {
         { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
         [_c("SwiperCourse", { attrs: { _i: 4 } })],
         1
-      )
+      ),
+      _c("v-uni-view", { attrs: { _i: 5 } }, [_vm._v("111")])
     ],
     1
   )
