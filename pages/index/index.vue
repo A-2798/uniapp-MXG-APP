@@ -9,9 +9,6 @@
 		<view class="bg_box">
 			<SwiperCourse></SwiperCourse>
 		</view>
-		<view class="">
-			111
-		</view>
 	</view>
 </template>
 
