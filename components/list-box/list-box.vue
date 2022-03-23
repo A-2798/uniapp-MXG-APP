@@ -11,7 +11,7 @@
 			</view>
 		</view>
 		<!-- 插槽 -->
-		<slot></slot>
+			<slot></slot>
 	</view>
 </template>
 
@@ -21,7 +21,7 @@
 		props: {
 			name: {
 				type: String,
-				default: '热门推荐'
+				default: null
 			},
 			word: { // HOT
 				type: String,

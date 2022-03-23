@@ -3,6 +3,7 @@
     "search": "/components/search/search",
     "swiper-banner": "/components/SwiperBanner/SwiperBanner",
     "category": "/components/category/category",
-    "swiper-course": "/components/SwiperCourse/SwiperCourse"
+    "swiper-course": "/components/SwiperCourse/SwiperCourse",
+    "scroll-course": "/components/scrollCourse/scrollCourse"
   }
 }

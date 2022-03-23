@@ -2,7 +2,6 @@
 	<list-box :name="name" :word="word" :params="params">
 		<swiper class="list-swiper" next-margin="30rpx" :style="{height: `${200*rows}rpx`}">
 			<swiper-item class="swiper-item" v-for="(n, index) in column" :key="index">
-<!-- rows=4 slice(start, end) 获取数组中指定范围元素数组，包头不包尾  开始下标：0，结束下标4 index*rows, (index+1)*rows  -->
 				<course-item v-for="(item, i) in courseData.slice(index*rows, (index+1)*rows)" :key="i" :item="item"></course-item>
 			</swiper-item>
 		</swiper>
@@ -10,11 +9,8 @@
 </template>
 
 <script>
-	import listBox from '@/components/list-box/list-box.vue'
-	import courseItem from '@/components/course-item/course-item.vue'
 	import courseData from '@/mock/courseData.js'
 	export default {
-		components: {listBox, courseItem},
 		props: {
 			name: {
 				type: String,

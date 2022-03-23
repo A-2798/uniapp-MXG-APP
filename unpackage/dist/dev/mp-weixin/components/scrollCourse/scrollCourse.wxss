@@ -1,0 +1,170 @@
+
+view,
+scroll-view,
+swiper,
+swiper-item,
+cover-view,
+cover-image,
+icon,
+text,
+rich-text,
+progress,
+button,
+checkbox,
+form,
+input,
+label,
+radio,
+slider,
+switch,
+textarea,
+navigator,
+audio,
+camera,
+image,
+video {
+	/* 
+	对元素指定宽度和高度包括了 padding 和 border 。
+	通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度 
+	还有个就是view之间不会有间隙
+	*/
+	box-sizing: border-box;
+}
+image {
+	/* 去掉底部白色背景 */
+	display: block;
+}
+
+/* 布局 */
+.center{
+
+	display:flex;
+
+	align-items: center;
+	justify-content: center;
+}
+.row{
+
+	display:flex;
+
+	flex-direction: row;
+}
+.column{
+
+	display:flex;
+
+	flex-direction: column;
+}
+.space-between {
+
+	display:flex;
+
+	flex-direction: row;
+	justify-content: space-between;
+}
+.one{
+	flex: 1;
+}
+/* input */
+.placeholder{
+	color: #999 !important;
+}
+/* 隐藏滚动条的问题,但依旧具备可以滚动的功能 */
+/* 解决小程序和app  */
+
+.noScorll ::-webkit-scrollbar{
+		display: none;
+	}
+
+/* 解决 H5 的问题 */
+
+
+
+
+
+
+
+.text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis; /*显示省略号
+ */
+	-webkit-line-clamp: 2; /*最多2行
+ */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+/* 蒙层 */
+.mask {
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/*文本基本颜色*/
+/* 下划线 */
+.scroll-view.data-v-4953a284 {
+  display: flex;
+  white-space: nowrap;
+}
+.scroll-view .scroll_bgbox.data-v-4953a284 {
+  display: inline-block;
+  margin-right: 20rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.scroll-view .scroll_bgbox .scroll_on.data-v-4953a284 {
+  width: 310rpx;
+  height: 160rpx;
+}
+.scroll-view .scroll_bgbox .scroll_on image.data-v-4953a284 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.scroll-view .scroll_bgbox .scroll_tw.data-v-4953a284 {
+  width: 290rpx;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.scroll-view .scroll_bgbox .scroll_th.data-v-4953a284 {
+  font-size: 12px;
+  padding: 10rpx 0;
+  color: #999;
+}
+.scroll-view .scroll_bgbox .ifont.data-v-4953a284 {
+  display: flex;
+  justify-content: space-between;
+}
+.scroll-view .scroll_bgbox .ifont .scroll_fo.data-v-4953a284 {
+  color: #FB6932;
+  font-size: 12px;
+}
+.scroll-view .scroll_bgbox .ifont .scroll_fv.data-v-4953a284 {
+  font-size: 12px;
+}
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "list-box": "/components/list-box/list-box"
+  },
+  "component": true
+}

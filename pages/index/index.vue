@@ -8,6 +8,8 @@
 		
 		<view class="bg_box">
 			<SwiperCourse></SwiperCourse>
+			<SwiperCourse name="免费精选" word="FREE"></SwiperCourse>
+			<scrollCourse name="近期上新" word="NEW"></scrollCourse>
 		</view>
 	</view>
 </template>
@@ -60,7 +62,7 @@
 
 <style lang="scss" scoped>
 	.bg_box{
-		padding: 10rpx 30rpx 0 30rpx;
+		padding: 10rpx 30rpx 30rpx 30rpx;
 	}
 
 </style>

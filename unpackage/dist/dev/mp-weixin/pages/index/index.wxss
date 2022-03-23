@@ -15,6 +15,6 @@
 /*文本基本颜色*/
 /* 下划线 */
 .bg_box.data-v-57280228 {
-  padding: 10rpx 30rpx 0 30rpx;
+  padding: 10rpx 30rpx 30rpx 30rpx;
 }
 
